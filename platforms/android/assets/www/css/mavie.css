@@ -1,0 +1,847 @@
+html, body {height: 100%; width: 100%;margin:0;}
+
+@font-face { font-family: 'raleway-regular';
+             src: url(raleway-regular.ttf);
+                
+@font-family: 'futura';
+}
+
+body {
+    
+    font-family: 'raleway';
+    font-size: 1.9vh;
+    text-align: center center;
+    background-color:  #ffffff;
+    color: white;
+    
+}
+
+.background{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+div{
+    border: none;
+    background-color: transparent; 
+    color: white;
+    font-size: 1.9vh;
+    font-family: raleway;
+    font-weight: 300;
+    position: fixed;
+}
+    
+button {
+    border: none;
+    position: fixed;
+    background-color: transparent; 
+    color: white;
+    font-size: 3.5vh;
+    font-family: futura;
+    font-weight: 300;
+    
+}
+
+
+.splashscreen{
+    
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    
+}
+
+@keyframes fadeout {
+    
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+       
+}
+
+
+
+.fadeout {
+    animation-name: fadeout;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+
+.my-animation {
+  animation: fade 1s steps(90) forwards;
+ -webkit-animation: fade 2s steps(90) forwards;
+  -moz-animation: fade 2s steps(90) forwards;
+    animation-delay: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.0;
+  }
+}
+
+
+
+/***************  bar top  *******/
+
+.topbar{
+    background-color: white;
+    height: 7vh;
+    top: 0;
+    width: 100vw;
+
+}
+
+.topbar button{
+    
+    background-color:white;
+    height: inherit;
+    border: none;
+    height: 5vh;
+    width: 5vh;
+    top: 1vh;
+    position: fixed;
+}
+
+
+
+
+
+.menu_img {
+    right: 1.5vh; 
+    
+   
+}
+
+.arrow_img{
+
+    left: 1.5vh;
+}
+
+.mavie_logo_top{
+    
+    margin-left: calc(50vw - 7.5vh);
+    margin-top: 1.6vh;
+    height:auto;
+    width: 13vh;
+    
+} 
+
+
+/********* angebote ********/
+
+.background_angebote{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-image: url(../IMAGES/angebote/bubble_angebote.svg);
+    background-size: 100% auto;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+
+    
+}
+
+
+.angebote_headline{
+    right: 1.5vh;
+    color: #44D3D6;
+    position: absolute;
+    font-size: 3vh;
+    font-family: futura;
+    top: 8vh;
+    
+}
+
+.angebote_subheadline{
+     top: 13vh;
+    right: 1.5vh;
+    color: #44D3D6;
+    
+}
+
+.medizinisch{
+    top: 30.1vh;
+    left: 6vw;
+    
+}
+.psychologisch{
+    top: 59.1vh;
+    left: 31vw;
+    
+}
+.sozial{
+    top: 91.4vh;
+    left: 73vw;
+}
+
+
+/***************  name and picture  *******/
+    
+.bereich_name{
+  
+    font-family: Futura;
+    font-style: normal;
+    color: white;
+    font-size: 4.5vh;
+    width: auto;
+    top: 14vh;
+    left: 13vw;
+}
+    
+.bereich_subheadline{
+    width: 51vw;
+    top: 20vh;
+    left: 13vw;
+    font-size: 1.9vh;
+    
+
+
+}
+
+.img_med{
+    
+    width: 25vw;
+    height: 25vw;
+    top: 10vh;
+    right: 5vw;
+}
+
+.icon_container{
+    height: 70vh;
+    width: 100vw;
+    
+}
+
+
+/***************   icons med  *******/
+
+
+
+
+
+.icon1 {
+    height: inherit;
+    border: none;
+    height: auto;
+    width: 10vw;
+    top: 33.4vh;
+    left: 21vw;
+}
+    
+.icon2 {
+    height: inherit;
+    border: none;
+    height: auto;
+    width: 23vw;
+    top: 35vh;
+    left: 58vw;
+    
+}
+
+.icon3 {
+    height: inherit;
+    border: none;
+    height: auto;
+    width: 14vw;
+    top: 61vh;
+    left: 21vw; 
+}
+
+.icon4 {
+    height: inherit;
+    border: none;
+    height: auto;
+    height: auto;
+    width: 20vw;
+    top: 60vh;
+    left: 60vw;
+}
+
+
+/***************   icons psy  *******/
+
+
+.icon5{
+   border: none;
+    height: auto;
+    width: 22vw;
+    top: 37vh;
+    left: 15vw;
+}
+
+.icon6{
+    height: inherit;
+    border: none;
+    height: auto;
+    width: 23vw;
+    top: 35vh;
+    left: 58vw;
+}
+
+
+.icon7{
+
+    border: none;
+    height: auto;
+    width: 20vw;
+    top: 61vh;
+    left: 40vw;
+}
+
+
+/***************   icons soc  *******/
+
+
+.icon8{
+   border: none;
+    height: auto;
+    width: 22vw;
+    top: 35vh;
+    left: 15vw;
+}
+
+.icon9{
+    height: inherit;
+    border: none;
+    height: auto;
+    width: 23vw;
+    top: 35vh;
+    left: 58vw;
+}
+
+
+.icon10{
+
+    border: none;
+    height: auto;
+    width: 20vw;
+    top: 59vh;
+    left: 40vw;
+}
+
+
+
+
+/***************   icons soc  *******/
+
+.line1{top: 49.7vh;}
+
+.line2{top: 74vh;}
+
+
+    
+.column1{ left: 13vw}
+.column1_3{ left: 15vw}
+
+.column2{ left: 56vw}
+
+.column2_psy{ left: 59vw}
+.column2_soc{ left: 30vw}
+
+.column3{left:44vw;}
+
+
+/***************  bar bottom   *******/
+
+.termin_machen{
+    
+width: 47vw;
+height: auto;
+top: 90vh;
+right: 5vw;
+    
+}
+
+.add_calendar{
+
+width: 47vw;
+height: auto;
+top: 83.5vh;
+right: 5vw;
+    
+}
+
+.lautsprecher{
+    
+width: 11vw;
+height: auto;
+top: 93vh;
+left: 3vw;
+    
+}
+
+/****** languages *****/
+
+
+.bubble_languages{
+   width: 63vw;
+   height: auto;
+   position: fixed;
+   top: 28vh;
+   left: 20vw;
+}
+
+.bubble_blue{
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    background-image: url(../IMAGES/languages/bubble_blue.svg);
+    background-size: 100% auto;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+
+}
+
+
+.mavie_logo_languages{
+    
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5vh;
+    left: 15vw;
+    display: block;
+    
+}
+
+.languages{
+    
+    
+}
+
+.deutsch{
+   top: 38vh;
+   left: 38vw;
+}
+
+.english{
+    top: 49vh;
+    left: 38vw;
+    
+}
+
+.arabisch{
+    top: 60vh;
+    left: 38vw;
+    
+    
+}
+
+
+
+/******** calendar ******/
+
+
+.termin_headline{
+    position: absolute;
+    color: #44D3D6;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.4vh;
+    top: 12vh;
+    left: 6vw;
+    opacity: 0.7;
+
+    
+}
+
+ .calendar {
+  position: relative;
+  display: inline-table;
+  background-color:transparent;
+  top: 30vh; 
+  width: 98vw;
+  left: 5vw;
+    
+}
+
+
+.month{
+     position: absolute;
+     color: #44D3D6;
+     font-weight: 600;
+     font-size: 3vh;
+     top: 19vh;
+     left: 18vw;
+    
+}
+.days {
+  position: relative;
+  color: #44D3D6;
+  width: 12.5vw;
+  height: 7vh;
+  text-align: center;
+  font-size: 3vh;
+  flex-wrap: wrap;  
+  
+}
+
+.day_unavaliable{
+    opacity: 0.2;
+}
+
+.day_selected{
+ font-weight: 800;
+ border: 1px;
+    
+}
+
+.week_days{
+    position: absolute;
+    width: 90vw;
+    align-content: center;
+    height: auto;
+    top:24vh; 
+    left: 5vw;
+    
+}
+
+.date_confirm{
+position: absolute;
+color: #F45B7A;
+font-weight: 600;
+font-size: 2.4vh;
+top: 69vh;
+left: 6vw;
+    
+    
+}
+
+.date_confirm_border{
+position: absolute;
+height: 40vh;
+top: 68.1vh;
+left: 3.8vw;
+width: 51vw;
+}
+
+.termin_sichern1{
+    width:  30vw;
+    bottom: 15vh;
+    right: 1.5vw;
+    position: absolute;
+}
+
+.termin_sichern2{
+    width:  30vw;
+    bottom: 8vh;
+    right: 1.5vw;
+    position: absolute;
+
+}
+
+.termin_sichern3{
+    width:  30vw;
+    bottom: 1vh;
+    right: 1.5vw;   
+    position: absolute;
+
+}
+
+
+.time1{
+    position: absolute;
+    color: #44D3D6;
+    width: 13.5vw;
+    height: 7vh;
+    font-size: 3vh;
+    bottom: 13vh;
+    right: 39vw;
+    font-weight: normal;
+
+}
+
+
+.time2{
+    position: absolute;
+    color: #44D3D6;
+    width: 13.5vw;
+    height: 7vh;
+    font-size: 3vh;
+    bottom: 6vh;
+    right: 39vw;
+    font-weight: normal;
+
+}
+
+.time3{
+    position: absolute;
+    color: #44D3D6;
+    width: 13.5vw;
+    height: 7vh;
+    font-size: 3vh;
+    bottom: -1vh;
+    right: 39vw;
+    font-weight: normal;
+    
+
+}
+
+
+
+/****** termin gesichert****/
+
+
+
+.background_termin_gesichert{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-image: url(../IMAGES/termin_gesichert/background_termin_gesicchert_O.svg);
+    background-size: 100% auto;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+
+
+.termin_gesichert{
+    font-family: Futura;
+    font-style: normal;
+    color: white;
+    font-size: 5vh;
+    width: auto;
+    top: 10.3vh;
+    left: 18.1vw;
+    position: absolute;
+}
+
+
+.info_termin1{
+    left: 10vw;
+    top: 36vh;
+    font-size: 3.5vh;
+    font-family: Futura;
+    font-style: normal;
+    width: auto;
+    position: absolute;
+    width: 50vw;
+    
+}
+.info_termin2{
+    left: 10vw;
+    top: 47vh;
+
+    font-style: normal;
+    width: auto;
+    position: absolute;
+    width: 50vw;
+    
+}
+.info_termin3{
+    left: 10vw;
+    top: 54vh;
+    font-style: normal;
+    width: auto;
+    position: absolute;
+}
+
+
+.zuruck_angebot{
+    
+width: 47vw;
+height: auto;
+top: 92vh;
+right: 5vw;
+}
+
+/**** transitions   *****/
+
+.container{
+    position: relative;
+    background-color: transparent;
+    align-content: space-around;
+}
+
+
+.orange{
+    background-color: transparent; 
+    left: 0;
+    opacity: 0%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    border-radius: 7px;
+    position:absolute;
+    color: white;
+        
+    }
+
+.container:hover .orange{
+    background-color: green;
+    left 10vh;
+    color: darkgray ;
+    transition-duration: 1s; 1s;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px lightgray;
+    }
+
+
+
+
+/****** Layout Helper *****/
+
+.height1 {height:calc(100vh/8);}
+.height2 {height:calc(100vh/8*2);}
+.height3 {height:calc(100vh/8*3);}
+.height4 {height:calc(100vh/8*4);}
+.height5 {height:calc(100vh/8*5);}
+.height6 {height:calc(100vh/8*6);}
+.height7 {height:calc(100vh/8*7);}
+.height8 {height:100vh;}
+
+
+.width1 {width:calc(100vw/5);}
+.width2 {width:calc(100vw/5*2);}
+.width3 {width:calc(100vw/5*3);}
+.width4 {width:calc(100vw/5*4);}
+.width5 {width:calc(100vw);}
+
+
+
+/****** anmiations ******/
+
+@keyframes fadein {
+    
+    0%   {opacity: 0;margin-left: 0;}
+    70%   {opacity: 0;margin-left: 0;}
+    100% {opacity: 1;margin-left: 5vw;}
+       
+}
+
+
+
+.fadein {
+    animation-name: fadein;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+
+@keyframes bubble {
+    
+    0%   {opacity: 0;margin-top: 99vh;
+    width: 63vw;
+   height: auto;
+   position: fixed;
+   top: 28vh;
+   left: 20vw}
+    
+    40%   {opacity: 0;margin-top: 99vh;
+    width: 63vw;
+   height: auto;
+   position: fixed;
+   top: 28vh;
+   left: 20vw}
+    
+   100% {opacity: 1;margin-top: 0vw;
+   width: 63vw;
+   height: auto;
+   position: fixed;
+   top: 28vh;
+   left: 20vw}
+       
+}
+
+
+.div_bubble {
+    animation-name: bubble;
+    animation-duration: 5s;
+    animation-delay: 0s;
+
+}
+
+
+@keyframes angebote {
+    
+    0%   {opacity: 0;}
+    50%   {opacity: 0;}
+    100% {opacity: 1;}
+       
+}
+
+.a_angebote{ 
+    animation-name: angebote;
+    animation-duration: 2s;
+}
+
+
+
+
+
+@keyframes img {
+    
+    0%   {opacity: 0;
+        transform: scale(0);   
+    }
+    
+    50%   {opacity: 0;
+        transform: scale(0);   
+    }
+    97% {opacity: 1;
+    transform: scale(1.1);
+        
+    }100% {opacity: 1;
+    transform: scale(1);
+    }
+       
+}
+
+.a_img{ 
+    animation-name: img;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-out;
+    position: fixed;
+   
+
+}
+
+
+
+@keyframes termin_vereinbaren {
+    
+    0%   {opacity: 0;}
+
+    
+    100% {opacity: 0.7;}
+ 
+       
+}
+
+
+.a_vereinbaren {
+    animation-name: termin_vereinbaren;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
