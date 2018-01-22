@@ -26,7 +26,7 @@
            
         <button class="english">English</button> 
             
-        <button class="arabisch">Arabisch</button>
+        <button class="arabisch">العربية</button>
         
         
            <button class="lautsprecher">

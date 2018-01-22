@@ -26,7 +26,10 @@
     
     
 <!-- ab hier PLattformabhängig Einstellungen für Eure App -->    
-<platform name="android">
+
+    
+    
+    <platform name="android">
 
     
      <platform name="android">
