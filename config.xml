@@ -22,8 +22,14 @@
     <plugin name="cordova-plugin-statusbar" spec="2.2.3" />
 
     
+
     
-    <platform name="android">
+    
+<!-- ab hier PLattformabhängig Einstellungen für Eure App -->    
+<platform name="android">
+
+    
+     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
@@ -32,13 +38,7 @@
     </platform>
     <engine name="android" spec="~6.3.0" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
-
-
     
-    
-<!-- ab hier PLattformabhängig Einstellungen für Eure App -->    
-<platform name="android">
-
 <splash src="res/screen/android/landscape-xxhdpi.png" density="land-xxhdpi"/>
   <splash src="res/screen/android/hdpi.png" density="port-hdpi"/>
   <splash src="res/screen/android/ldpi.png" density="port-ldpi"/>
@@ -54,6 +54,24 @@
   <icon gap:platform="android" gap:qualifier="fr-xxhdpi" src="res/icon/android/fr-xxhdpi.png" />
 
 </platform>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
     <!-- aber hier iOS und so -->
